@@ -8,7 +8,7 @@
 ## 📌 주요 링크 (Official Links)
 - **공식 소개 페이지**: [https://leejhn.github.io/glean-bot/](https://leejhn.github.io/glean-bot/)
 - **개인정보처리방침 (Privacy Policy)**: [https://leejhn.github.io/glean-bot/privacy.html](https://leejhn.github.io/glean-bot/privacy.html)
-- **고객지원 및 FAQ (Support)**: [https://leejhn.github.io/glean-bot/support.html](https://leejhn.github.io/glean-bot/support.html)
+- **자주 묻는 질문 (FAQ)**: [https://leejhn.github.io/glean-bot/support.html](https://leejhn.github.io/glean-bot/support.html)
 
 ---
 
@@ -62,3 +62,4 @@ Google Chrome Web Store 보안 및 단일 목적(Single Purpose) 심사 기준�
 1. 크롬 브라우저 툴바에서 **glean-bot** 아이콘을 클릭하여 사이드 패널을 엽니다.
 2. 네이버에 로그인한 후, 사이드 패널에서 **[▶ 자동 적립 시작]** 버튼을 클릭합니다.
 3. 매일 같은 시각에 자동으로 실행되길 원하시면 **'⏰ 매일 정해진 시각 자동 시작'**을 켜고 원하는 시간을 설정해 두시면 됩니다.
+
