@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>개인정보처리방침 (Privacy Policy) - glean-bot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-inner">
+        <a href="index.html" class="brand">🌱 glean-bot</a>
+        <nav>
+          <a href="index.html">소개</a>
+          <a href="privacy.html" class="active">개인정보처리방침</a>
+          <a href="support.html">고객지원/FAQ</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="card">
+        <span class="badge">Privacy Policy / 개인정보처리방침</span>
+        <h1>개인정보처리방침 (Privacy Policy)</h1>
+        <p class="meta-box"><strong>최종 수정일:</strong> 2026년 11월 1일 | <strong>적용 대상:</strong> 네이버페이 포인트 자동적립 (glean-bot) Chrome 확장 프로그램</p>
+
+        <h2>1. 개요 (Overview)</h2>
+        <p>본 개인정보처리방침은 <strong>glean-bot (네이버페이 포인트 자동적립 확장 프로그램)</strong>이 사용자의 정보를 어떻게 다루는지 투명하게 설명하기 위해 작성되었습니다. 본 확장 프로그램은 사용자의 프라이버시를 최우선으로 존중하며, <strong>외부 서버로 어떠한 개인정보도 수집, 전송, 보관하지 않는 독립형(Client-Only) 도구</strong>입니다.</p>
+
+        <h2>2. 수집 및 처리하는 정보 (Data Handled)</h2>
+        <ul>
+          <li><strong>계정 자격 증명(ID/Password) 비수집:</strong> 사용자의 아이디, 비밀번호, 결제 정보 등 민감한 개인 식별 정보를 입력받거나 저장하지 않습니다. 사용자가 브라우저에서 기존에 로그인해 둔 정상적인 네이버 세션을 브라우저 내부에서만 활용합니다.</li>
+          <li><strong>네이버 로그인 세션 확인 (Cookies):</strong> 브라우저에 저장된 네이버 로그인 쿠키(<code>NID_AUT</code>, <code>NID_SES</code>)의 유효 여부만을 브라우저 로컬 상에서 일시 확인하여 로그인 상태를 안내하며, 쿠키 값을 외부로 유출하거나 기록하지 않습니다.</li>
+          <li><strong>사용자 설정 및 통계 (Storage):</strong> 사용자 지정 동작 딜레이, 1원 미션 제외 옵션, 매일 실행 예약 시각, 당일 적립 완료 통계 등은 사용자의 로컬 브라우저 내부 스토리지(<code>chrome.storage.local</code>)에만 격리 보관됩니다.</li>
+        </ul>
+
+        <h2>3. Chrome 확장 프로그램 권한 사용 목적 (Permissions Justification)</h2>
+        <ul>
+          <li><code>sidePanel</code>: 사용자 웹 브라우징을 방해하지 않고 우측 패널에서 실시간 적립 모니터링 및 컨트롤 UI 제공</li>
+          <li><code>storage</code>: 사용자 환경 설정값 및 적립 통계 브라우저 로컬 저장</li>
+          <li><code>tabs</code> &amp; <code>scripting</code>: 네이버페이 혜택 미션 페이지 열기, 페이지 로딩 감지, 포인트 받기 버튼 클릭 및 적립 완료 후 탭 자동 종료</li>
+          <li><code>offscreen</code>: Manifest V3 규격에 따라 미션 완료 알림음(HTML5 Audio)을 백그라운드에서 재생</li>
+          <li><code>alarms</code>: 사용자가 매일 지정한 시각에 자동 실행할 수 있도록 내부 스케줄링</li>
+          <li><code>cookies</code>: 네이버 로그인 세션 유지 여부 판정</li>
+          <li><code>host_permissions</code> &amp; <code>&lt;all_urls&gt;</code>: 1원 미션 수행 시 외부 광고망 및 제휴사 쇼핑몰(스마트스토어 등) 리다이렉트 도달 감지 및 안전 체류 처리</li>
+        </ul>
+
+        <h2>4. 제3자 제공 및 외부 전송 (Third-Party Sharing &amp; Data Transfers)</h2>
+        <p>본 확장 프로그램은 개발자 개인 서버, 제3자 분석 도구(Google Analytics 등), 광고 네트워크를 일체 사용하지 않으며, <strong>외부 서버와의 통신이 원천 차단</strong>되어 있습니다. 따라서 어떠한 정보도 제3자에게 판매, 공유, 전송되지 않습니다.</p>
+
+        <h2>5. 영문 개인정보처리방침 (English Summary for Chrome Web Store Review)</h2>
+        <div class="meta-box">
+          <p><strong>English Statement:</strong><br>
+          glean-bot ("the Extension") does NOT collect, store, transmit, or sell any personal or sensitive user data. All processing occurs entirely within the user's local browser environment. The extension accesses cookies locally only to check the active login status of Naver and stores user preferences locally via <code>chrome.storage.local</code>. No data is sent to external servers.</p>
+        </div>
+
+        <h2>6. 문의 및 변경 고지 (Contact)</h2>
+        <p>본 방침에 대한 질문이나 제안이 있으신 경우 아래 GitHub 저장소 이슈를 통해 문의해주시기 바랍니다.</p>
+        <p>GitHub 저장소: <a href="https://github.com/leejhn/glean-bot" target="_blank" rel="noopener noreferrer">https://github.com/leejhn/glean-bot</a></p>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 glean-bot. Hosted on GitHub Pages. <a href="support.html">문의 및 지원</a></p>
+    </footer>
+  </div>
+</body>
+</html>
+
