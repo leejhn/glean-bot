@@ -1,4 +1,4 @@
-# 🌱 glean-bot (네이버페이 포인트 자동적립)
+# <img src="icons/icon48.png" width="28" align="absmiddle" alt="glean-bot" /> 엔페이 포인트 자동 줍기(glean-bot)
 
 > **Chrome Web Store Manifest V3 Extension**  
 > 네이버페이 혜택 미션을 브라우저 사이드 패널(Side Panel)에서 실시간으로 관제하며 안전하게 자동 적립하는 확장 프로그램입니다.
