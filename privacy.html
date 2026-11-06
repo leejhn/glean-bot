@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,25 +8,49 @@
   <link rel="icon" type="image/png" sizes="48x48" href="icons/icon48.png">
   <link rel="icon" type="image/png" sizes="16x16" href="icons/icon16.png">
   <link rel="stylesheet" href="style.css">
+  <script>
+    (function () {
+      const saved = localStorage.getItem("glean-theme");
+      if (saved === "black") document.documentElement.setAttribute("data-theme", "black");
+    })();
+  </script>
 </head>
+
 <body>
   <div class="container">
+    <!-- 1. Context Header (Floating Glass) -->
     <header>
       <div class="header-inner">
-        <a href="index.html" class="brand"><img src="icons/icon48.png" alt="glean-bot" class="brand-icon">엔페이 포인트 자동 줍기(glean-bot)</a>
-        <nav>
-          <a href="index.html">소개</a>
-          <a href="privacy.html" class="active">개인정보처리방침</a>
-          <a href="support.html">FAQ</a>
-        </nav>
+        <a href="index.html" class="brand">
+          <div class="brand-icon-wrap">
+            <img src="icons/icon48.png" alt="glean-bot" class="brand-icon">
+          </div>
+          <div class="brand-title-group">
+            <span class="brand-eyebrow">Auto Point Collector</span>
+            <span class="brand-name">엔페이 포인트 자동 줍기(glean-bot)</span>
+          </div>
+        </a>
+        <div class="header-right">
+          <nav aria-label="주요 메뉴">
+            <a href="index.html">소개</a>
+            <a href="privacy.html" class="active">개인정보처리방침</a>
+            <a href="support.html">FAQ</a>
+          </nav>
+          <button type="button" id="themeToggleBtn" class="theme-toggle-btn" title="화면 테마 전환 (Light / Black)" aria-label="화면 테마 전환">☀️</button>
+        </div>
       </div>
     </header>
 
     <main>
       <div class="card">
-        <span class="badge">Privacy Policy / 개인정보처리방침</span>
+        <div class="hero-badges">
+          <span class="badge"><span class="badge-dot"></span>Privacy Policy / 개인정보처리방침</span>
+          <span class="badge badge-neutral">Zero Data Collection</span>
+        </div>
         <h1>개인정보처리방침 (Privacy Policy)</h1>
-        <p class="meta-box"><strong>최종 수정일:</strong> 2026년 11월 1일 | <strong>적용 대상:</strong> 엔페이 포인트 자동 줍기(glean-bot) Chrome 확장 프로그램</p>
+        <div class="meta-box">
+          <p><strong>최종 수정일:</strong> 2026년 11월 1일 &nbsp;|&nbsp; <strong>적용 대상:</strong> 엔페이 포인트 자동 줍기(glean-bot) Chrome 확장 프로그램</p>
+        </div>
 
         <h2>1. 개요 (Overview)</h2>
         <p>본 개인정보처리방침은 <strong>엔페이 포인트 자동 줍기(glean-bot) 확장 프로그램</strong>이 사용자의 정보를 어떻게 다루는지 투명하게 설명하기 위해 작성되었습니다. 본 확장 프로그램은 사용자의 프라이버시를 최우선으로 존중하며, <strong>외부 서버로 어떠한 개인정보도 수집, 전송, 보관하지 않는 독립형(Client-Only) 도구</strong>입니다.</p>
@@ -64,9 +89,31 @@
     </main>
 
     <footer>
-      <p>&copy; 2026 glean-bot. Hosted on GitHub Pages. <a href="support.html">FAQ</a></p>
+      <p>&copy; 2026 glean-bot. Hosted on GitHub Pages. <a href="index.html">소개</a> | <a href="support.html">FAQ</a></p>
     </footer>
   </div>
-</body>
-</html>
 
+  <script>
+    (function () {
+      const btn = document.getElementById("themeToggleBtn");
+      const updateIcon = () => {
+        const isBlack = document.documentElement.getAttribute("data-theme") === "black";
+        btn.textContent = isBlack ? "🌙" : "☀️";
+      };
+      updateIcon();
+      btn.addEventListener("click", () => {
+        const isBlack = document.documentElement.getAttribute("data-theme") === "black";
+        if (isBlack) {
+          document.documentElement.removeAttribute("data-theme");
+          localStorage.setItem("glean-theme", "light");
+        } else {
+          document.documentElement.setAttribute("data-theme", "black");
+          localStorage.setItem("glean-theme", "black");
+        }
+        updateIcon();
+      });
+    })();
+  </script>
+</body>
+
+</html>
