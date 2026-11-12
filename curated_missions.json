@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-12 23:21:36",
-  "total_active": 17,
+  "updated_at": "2026-11-13 06:39:18",
+  "total_active": 23,
   "missions": [
     {
       "url": "https://home.pay.naver.com/?from=main_pay_icon",
@@ -69,6 +69,30 @@
     {
       "url": "https://ofw.adison.co/u/naverpay/ads/1073021",
       "discovered_at": "2026-11-12T21:20:18"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/889076",
+      "discovered_at": "2026-11-13 06:39:16"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_benefit_261113",
+      "discovered_at": "2026-11-13 06:39:16"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_mycar_261113",
+      "discovered_at": "2026-11-13 06:39:16"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_loan_house_261113",
+      "discovered_at": "2026-11-13 06:39:16"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/1252994",
+      "discovered_at": "2026-11-13 06:39:16"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/889076https://new-m.pay.naver.com/eventbenefit/bridge?fromPage=DETAIL_FROM_LIST&deviceType=pc&adId=889076",
+      "discovered_at": "2026-11-13 06:39:16"
     }
   ],
   "deleted_urls": [
