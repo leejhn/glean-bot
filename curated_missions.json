@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-12T15:51:50",
-  "total_active": 31,
+  "updated_at": "2026-11-12T16:10:40",
+  "total_active": 35,
   "missions": [
     {
       "url": "https://home.pay.naver.com/?from=main_pay_icon",
@@ -218,6 +218,38 @@
       "source_title": "2026-11-10 네이버페이 73원 + 랜덤 포인트",
       "source_url": "https://damoang.net/economy/82769",
       "discovered_at": "2026-11-12T15:36:58"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/branddraw/?from=pointtab",
+      "category": "캠페인 클릭",
+      "source_community": "뽐뿌",
+      "source_title": "[네이버페이]매일 브랜드뽑기 10원(14시 오픈)14:03:13|18816[쿠폰] 피아소",
+      "source_url": "https://m.ppomppu.co.kr/new/bbs_view.php?id=coupon&no=120682&page=1",
+      "discovered_at": "2026-11-12T16:10:33"
+    },
+    {
+      "url": "https://point.pay.naver.com/mission-detail?dataType=category&rank=16&pageKey=quickreward&rankType=RANDOM&mssCode=quickreward",
+      "category": "상세 미션",
+      "source_community": "뽐뿌",
+      "source_title": "[네이버페이]돌아온 네이버페이 12원 제주항공(~11월 18일까지)211:26:00|439419[쿠폰] 피아소",
+      "source_url": "https://m.ppomppu.co.kr/new/bbs_view.php?id=coupon&no=120679&page=1",
+      "discovered_at": "2026-11-12T16:10:35"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/1252663",
+      "category": "오퍼월 적립",
+      "source_community": "뽐뿌",
+      "source_title": "[네이버페이]100원 알람받기311:24:31|309710[쿠폰] 피아소",
+      "source_url": "https://m.ppomppu.co.kr/new/bbs_view.php?id=coupon&no=120678&page=1",
+      "discovered_at": "2026-11-12T16:10:37"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/1214086",
+      "category": "오퍼월 적립",
+      "source_community": "뽐뿌",
+      "source_title": "[네이버페이]100원 / 선착순201:13:31|671515[포인트] angel_dad",
+      "source_url": "https://m.ppomppu.co.kr/new/bbs_view.php?id=coupon&no=120668&page=1",
+      "discovered_at": "2026-11-12T16:10:39"
     }
   ]
 }
