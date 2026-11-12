@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-12T17:17:11",
-  "total_active": 16,
+  "updated_at": "2026-11-12T12:23:51",
+  "total_active": 17,
   "missions": [
     {
       "url": "https://home.pay.naver.com/?from=main_pay_icon",
@@ -117,6 +117,14 @@
       "source_title": "[네이버페이]100원 / 선착순201:13:31|671515[포인트] angel_dad",
       "source_url": "https://m.ppomppu.co.kr/new/bbs_view.php?id=coupon&no=120668&page=1",
       "discovered_at": "2026-11-12T16:10:39"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/1073021",
+      "category": "오퍼월 적립",
+      "source_community": "뽐뿌",
+      "source_title": "[네이버페이]네이버페이 1원 사세318:23:02|297216[쿠폰] 피아소",
+      "source_url": "https://m.ppomppu.co.kr/new/bbs_view.php?id=coupon&no=120685&page=1",
+      "discovered_at": "2026-11-12T21:20:18"
     }
   ],
   "deleted_urls": [
