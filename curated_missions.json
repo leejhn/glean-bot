@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-12T16:10:40",
-  "total_active": 35,
+  "updated_at": "2026-11-12T17:17:11",
+  "total_active": 16,
   "missions": [
     {
       "url": "https://home.pay.naver.com/?from=main_pay_icon",
@@ -19,20 +19,6 @@
     {
       "url": "https://external-token.pay.naver.com/entry/pincrux?gd=ab8e18ef4ebebeddc0b3152ce9c9006e14fc05242e3fc9ce32246ea6a9543074",
       "category": "쇼핑라이브 적립",
-      "source_title": "2026-11-12 네이버페이 79원 + 랜덤 포인트",
-      "source_url": "https://damoang.net/economy/82853",
-      "discovered_at": "2026-11-12T15:36:48"
-    },
-    {
-      "url": "https://point.pay.naver.com/mission-detail?rank=6&mssCode=promotion&promoCode=quiz_s",
-      "category": "상세 미션",
-      "source_title": "2026-11-12 네이버페이 79원 + 랜덤 포인트",
-      "source_url": "https://damoang.net/economy/82853",
-      "discovered_at": "2026-11-12T15:36:48"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=130133_261101_tjsxor_1200",
-      "category": "캠페인 클릭",
       "source_title": "2026-11-12 네이버페이 79원 + 랜덤 포인트",
       "source_url": "https://damoang.net/economy/82853",
       "discovered_at": "2026-11-12T15:36:48"
@@ -101,125 +87,6 @@
       "discovered_at": "2026-11-12T15:36:48"
     },
     {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026111001_2611_1746",
-      "category": "캠페인 클릭",
-      "source_title": "2026-11-11 네이버페이 83원 + 랜덤 포인트",
-      "source_url": "https://damoang.net/economy/82804",
-      "discovered_at": "2026-11-12T15:36:54"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261111_1235",
-      "category": "캠페인 클릭",
-      "source_title": "2026-11-11 네이버페이 83원 + 랜덤 포인트",
-      "source_url": "https://damoang.net/economy/82804",
-      "discovered_at": "2026-11-12T15:36:54"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261111_1255",
-      "category": "캠페인 클릭",
-      "source_title": "2026-11-11 네이버페이 83원 + 랜덤 포인트",
-      "source_url": "https://damoang.net/economy/82804",
-      "discovered_at": "2026-11-12T15:36:54"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026110107_2611_1111",
-      "category": "캠페인 클릭",
-      "source_title": "2026-11-11 네이버페이 83원 + 랜덤 포인트",
-      "source_url": "https://damoang.net/economy/82804",
-      "discovered_at": "2026-11-12T15:36:54"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_20261110_2611_1859",
-      "category": "캠페인 클릭",
-      "source_title": "2026-11-11 네이버페이 83원 + 랜덤 포인트",
-      "source_url": "https://damoang.net/economy/82804",
-      "discovered_at": "2026-11-12T15:36:54"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_benefit_261111",
-      "category": "캠페인 클릭",
-      "source_title": "2026-11-11 네이버페이 83원 + 랜덤 포인트",
-      "source_url": "https://damoang.net/economy/82804",
-      "discovered_at": "2026-11-12T15:36:54"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_seasonal_261111",
-      "category": "캠페인 클릭",
-      "source_title": "2026-11-11 네이버페이 83원 + 랜덤 포인트",
-      "source_url": "https://damoang.net/economy/82804",
-      "discovered_at": "2026-11-12T15:36:54"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_wooricard_261111",
-      "category": "캠페인 클릭",
-      "source_title": "2026-11-11 네이버페이 83원 + 랜덤 포인트",
-      "source_url": "https://damoang.net/economy/82804",
-      "discovered_at": "2026-11-12T15:36:54"
-    },
-    {
-      "url": "https://ofw.adison.co/u/naverpay/ads/1137027",
-      "category": "오퍼월 적립",
-      "source_title": "2026-11-11 네이버페이 83원 + 랜덤 포인트",
-      "source_url": "https://damoang.net/economy/82804",
-      "discovered_at": "2026-11-12T15:36:54"
-    },
-    {
-      "url": "https://ofw.adison.co/u/naverpay/ads/1250806",
-      "category": "오퍼월 적립",
-      "source_title": "2026-11-11 네이버페이 83원 + 랜덤 포인트",
-      "source_url": "https://damoang.net/economy/82804",
-      "discovered_at": "2026-11-12T15:36:54"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_20261110_2611_1615",
-      "category": "캠페인 클릭",
-      "source_title": "2026-11-10 네이버페이 73원 + 랜덤 포인트",
-      "source_url": "https://damoang.net/economy/82769",
-      "discovered_at": "2026-11-12T15:36:58"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261110_1527",
-      "category": "캠페인 클릭",
-      "source_title": "2026-11-10 네이버페이 73원 + 랜덤 포인트",
-      "source_url": "https://damoang.net/economy/82769",
-      "discovered_at": "2026-11-12T15:36:58"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261110_1577",
-      "category": "캠페인 클릭",
-      "source_title": "2026-11-10 네이버페이 73원 + 랜덤 포인트",
-      "source_url": "https://damoang.net/economy/82769",
-      "discovered_at": "2026-11-12T15:36:58"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026110104_2611_1110",
-      "category": "캠페인 클릭",
-      "source_title": "2026-11-10 네이버페이 73원 + 랜덤 포인트",
-      "source_url": "https://damoang.net/economy/82769",
-      "discovered_at": "2026-11-12T15:36:58"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_benefit_261110",
-      "category": "캠페인 클릭",
-      "source_title": "2026-11-10 네이버페이 73원 + 랜덤 포인트",
-      "source_url": "https://damoang.net/economy/82769",
-      "discovered_at": "2026-11-12T15:36:58"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_advice_261110",
-      "category": "캠페인 클릭",
-      "source_title": "2026-11-10 네이버페이 73원 + 랜덤 포인트",
-      "source_url": "https://damoang.net/economy/82769",
-      "discovered_at": "2026-11-12T15:36:58"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_loan_house_261110",
-      "category": "캠페인 클릭",
-      "source_title": "2026-11-10 네이버페이 73원 + 랜덤 포인트",
-      "source_url": "https://damoang.net/economy/82769",
-      "discovered_at": "2026-11-12T15:36:58"
-    },
-    {
       "url": "https://campaign2.naver.com/npay/branddraw/?from=pointtab",
       "category": "캠페인 클릭",
       "source_community": "뽐뿌",
@@ -251,5 +118,26 @@
       "source_url": "https://m.ppomppu.co.kr/new/bbs_view.php?id=coupon&no=120668&page=1",
       "discovered_at": "2026-11-12T16:10:39"
     }
+  ],
+  "deleted_urls": [
+    "https://campaign2.naver.com/npay/v2/click-point/?eventId=130133_261101_tjsxor_1200",
+    "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026110104_2611_1110",
+    "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026110107_2611_1111",
+    "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026111001_2611_1746",
+    "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_20261110_2611_1615",
+    "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_20261110_2611_1859",
+    "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261110_1527",
+    "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261110_1577",
+    "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261111_1235",
+    "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261111_1255",
+    "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_advice_261110",
+    "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_benefit_261110",
+    "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_benefit_261111",
+    "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_loan_house_261110",
+    "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_seasonal_261111",
+    "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_wooricard_261111",
+    "https://ofw.adison.co/u/naverpay/ads/1137027",
+    "https://ofw.adison.co/u/naverpay/ads/1250806",
+    "https://point.pay.naver.com/mission-detail?rank=6&mssCode=promotion&promoCode=quiz_s"
   ]
 }
