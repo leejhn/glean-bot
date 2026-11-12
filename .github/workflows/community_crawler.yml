@@ -32,6 +32,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add curated_missions.json naver_pay_extension_html/curated_missions.json
+          git add curated_missions.json
+          [ -f naver_pay_extension_html/curated_missions.json ] && git add naver_pay_extension_html/curated_missions.json || true
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: hourly curated missions update [skip ci]" && git push)
 
