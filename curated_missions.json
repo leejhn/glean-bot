@@ -1,55 +1,7 @@
 {
-  "updated_at": "2026-11-13 19:21:06",
-  "total_active": 19,
+  "updated_at": "2026-11-14 03:18:13",
+  "total_active": 18,
   "missions": [
-    {
-      "url": "https://home.pay.naver.com/?from=main_pay_icon",
-      "discovered_at": "2026-11-12T15:36:48"
-    },
-    {
-      "url": "https://home.pay.naver.com/?from=pay_main",
-      "discovered_at": "2026-11-12T15:36:48"
-    },
-    {
-      "url": "https://external-token.pay.naver.com/entry/pincrux?gd=ab8e18ef4ebebeddc0b3152ce9c9006e14fc05242e3fc9ce32246ea6a9543074",
-      "discovered_at": "2026-11-12T15:36:48"
-    },
-    {
-      "url": "https://ofw.adison.co/u/naverpay/ads/1245338",
-      "discovered_at": "2026-11-12T15:36:48"
-    },
-    {
-      "url": "https://ofw.adison.co/u/naverpay/ads/1214094",
-      "discovered_at": "2026-11-12T15:36:48"
-    },
-    {
-      "url": "https://ofw.adison.co/u/naverpay/ads/730013",
-      "discovered_at": "2026-11-12T15:36:48"
-    },
-    {
-      "url": "https://point.pay.naver.com/main?category=quickreward",
-      "discovered_at": "2026-11-12T15:36:48"
-    },
-    {
-      "url": "https://point.pay.naver.com/mission-detail?dataType=module&rank=7&pageKey=pensionmission&rankType=RANDOM_DAILY&sortCompletedAdToLast=false&mssCode=pensionmission",
-      "discovered_at": "2026-11-12T15:36:48"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/branddraw/?from=pointtab",
-      "discovered_at": "2026-11-12T16:10:33"
-    },
-    {
-      "url": "https://point.pay.naver.com/mission-detail?dataType=category&rank=16&pageKey=quickreward&rankType=RANDOM&mssCode=quickreward",
-      "discovered_at": "2026-11-12T16:10:35"
-    },
-    {
-      "url": "https://ofw.adison.co/u/naverpay/ads/1252663",
-      "discovered_at": "2026-11-12T16:10:37"
-    },
-    {
-      "url": "https://ofw.adison.co/u/naverpay/ads/1214086",
-      "discovered_at": "2026-11-12T16:10:39"
-    },
     {
       "url": "https://ofw.adison.co/u/naverpay/ads/1073021",
       "discovered_at": "2026-11-12T21:20:18"
@@ -77,6 +29,50 @@
     {
       "url": "https://ofw.adison.co/u/naverpay/ads/889076https://new-m.pay.naver.com/eventbenefit/bridge?fromPage=DETAIL_FROM_LIST&deviceType=pc&adId=889076",
       "discovered_at": "2026-11-13 07:56:38"
+    },
+    {
+      "url": "https://home.pay.naver.com/?from=main_pay_icon",
+      "discovered_at": "2026-11-14 03:18:10"
+    },
+    {
+      "url": "https://home.pay.naver.com/?from=pay_main",
+      "discovered_at": "2026-11-14 03:18:10"
+    },
+    {
+      "url": "https://external-token.pay.naver.com/entry/pincrux?gd=ab8e18ef4ebebeddc0b3152ce9c9006e14fc05242e3fc9ce32246ea6a9543074",
+      "discovered_at": "2026-11-14 03:18:10"
+    },
+    {
+      "url": "https://point.pay.naver.com/mission-detail?dataType=module&rank=7&pageKey=pensionmission&rankType=RANDOM_DAILY&sortCompletedAdToLast=false&mssCode=pensionmission",
+      "discovered_at": "2026-11-14 03:18:10"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026111401_2611_03_1702",
+      "discovered_at": "2026-11-14 03:18:10"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_benefit_261114",
+      "discovered_at": "2026-11-14 03:18:10"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_stock_261114",
+      "discovered_at": "2026-11-14 03:18:10"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_moneycard_261114",
+      "discovered_at": "2026-11-14 03:18:10"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/730013",
+      "discovered_at": "2026-11-14 03:18:10"
+    },
+    {
+      "url": "https://point.pay.naver.com/main?category=quickreward",
+      "discovered_at": "2026-11-14 03:18:10"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/889076https://point.pay.naver.com/pc/mission-detail?dataType=category&rank=16&pageKey=quickreward",
+      "discovered_at": "2026-11-14 03:18:10"
     }
   ],
   "deleted_urls": [
