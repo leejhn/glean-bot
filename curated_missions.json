@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-13 06:39:18",
-  "total_active": 23,
+  "updated_at": "2026-11-13 09:24:15",
+  "total_active": 19,
   "missions": [
     {
       "url": "https://home.pay.naver.com/?from=main_pay_icon",
@@ -12,22 +12,6 @@
     },
     {
       "url": "https://external-token.pay.naver.com/entry/pincrux?gd=ab8e18ef4ebebeddc0b3152ce9c9006e14fc05242e3fc9ce32246ea6a9543074",
-      "discovered_at": "2026-11-12T15:36:48"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026111204_2611_02_1428",
-      "discovered_at": "2026-11-12T15:36:48"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_20261112_2611_1454",
-      "discovered_at": "2026-11-12T15:36:48"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_appstore_261112",
-      "discovered_at": "2026-11-12T15:36:48"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_overseastrip_261112",
       "discovered_at": "2026-11-12T15:36:48"
     },
     {
@@ -72,27 +56,27 @@
     },
     {
       "url": "https://ofw.adison.co/u/naverpay/ads/889076",
-      "discovered_at": "2026-11-13 06:39:16"
+      "discovered_at": "2026-11-13 07:56:38"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_benefit_261113",
-      "discovered_at": "2026-11-13 06:39:16"
+      "discovered_at": "2026-11-13 07:56:38"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_mycar_261113",
-      "discovered_at": "2026-11-13 06:39:16"
+      "discovered_at": "2026-11-13 07:56:38"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_loan_house_261113",
-      "discovered_at": "2026-11-13 06:39:16"
+      "discovered_at": "2026-11-13 07:56:38"
     },
     {
       "url": "https://ofw.adison.co/u/naverpay/ads/1252994",
-      "discovered_at": "2026-11-13 06:39:16"
+      "discovered_at": "2026-11-13 07:56:38"
     },
     {
       "url": "https://ofw.adison.co/u/naverpay/ads/889076https://new-m.pay.naver.com/eventbenefit/bridge?fromPage=DETAIL_FROM_LIST&deviceType=pc&adId=889076",
-      "discovered_at": "2026-11-13 06:39:16"
+      "discovered_at": "2026-11-13 07:56:38"
     }
   ],
   "deleted_urls": [
@@ -102,14 +86,18 @@
     "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026111001_2611_1746",
     "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_20261110_2611_1615",
     "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_20261110_2611_1859",
+    "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026111204_2611_02_1428",
+    "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_20261112_2611_1454",
     "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261110_1527",
     "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261110_1577",
     "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261111_1235",
     "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261111_1255",
     "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_advice_261110",
+    "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_appstore_261112",
     "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_benefit_261110",
     "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_benefit_261111",
     "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_loan_house_261110",
+    "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_overseastrip_261112",
     "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_seasonal_261111",
     "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_wooricard_261111",
     "https://ofw.adison.co/u/naverpay/ads/1137027",
