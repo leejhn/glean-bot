@@ -1,176 +1,204 @@
 {
-  "updated_at": "2026-11-14 11:01:14",
-  "total_active": 15,
+  "updated_at": "2026-11-14 19:20:41",
+  "total_active": 21,
   "missions": [
     {
       "url": "https://home.pay.naver.com/?from=main_pay_icon",
-      "discovered_at": "2026-11-13 21:48:25"
+      "discovered_at": "2026-11-14 03:18:10"
     },
     {
       "url": "https://home.pay.naver.com/?from=pay_main",
-      "discovered_at": "2026-11-13 21:48:25"
+      "discovered_at": "2026-11-14 03:18:10"
     },
     {
       "url": "https://external-token.pay.naver.com/entry/pincrux?gd=ab8e18ef4ebebeddc0b3152ce9c9006e14fc05242e3fc9ce32246ea6a9543074",
-      "discovered_at": "2026-11-13 21:48:25"
+      "discovered_at": "2026-11-14 03:18:10"
     },
     {
       "url": "https://point.pay.naver.com/mission-detail?dataType=module&rank=7&pageKey=pensionmission&rankType=RANDOM_DAILY&sortCompletedAdToLast=false&mssCode=pensionmission",
-      "discovered_at": "2026-11-13 21:48:25"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026110103_2611_1527",
-      "discovered_at": "2026-11-13 21:48:25"
-    },
-    {
-      "url": "https://ofw.adison.co/u/naverpay/ads/1073021",
-      "discovered_at": "2026-11-13 21:48:25"
-    },
-    {
-      "url": "https://ofw.adison.co/u/naverpay/ads/730013",
-      "discovered_at": "2026-11-13 21:48:25"
-    },
-    {
-      "url": "https://point.pay.naver.com/main?category=quickreward",
-      "discovered_at": "2026-11-13 21:48:25"
+      "discovered_at": "2026-11-14 03:18:10"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026111401_2611_03_1702",
-      "discovered_at": "2026-11-14 01:01:22"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_moneycard_261114",
-      "discovered_at": "2026-11-14 01:01:22"
+      "discovered_at": "2026-11-14 03:18:10"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_benefit_261114",
-      "discovered_at": "2026-11-14 01:01:22"
+      "discovered_at": "2026-11-14 03:18:10"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_stock_261114",
-      "discovered_at": "2026-11-14 01:01:22"
+      "discovered_at": "2026-11-14 03:18:10"
     },
     {
-      "url": "https://ofw.adison.co/u/naverpay/ads/67823",
-      "discovered_at": "2026-11-14 01:01:22"
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_moneycard_261114",
+      "discovered_at": "2026-11-14 03:18:10"
     },
     {
-      "url": "https://campaign2.naver.com/npay/branddraw/?from=pointtab",
-      "discovered_at": "2026-11-14 01:01:22"
+      "url": "https://ofw.adison.co/u/naverpay/ads/730013",
+      "discovered_at": "2026-11-14 03:18:10"
+    },
+    {
+      "url": "https://point.pay.naver.com/main?category=quickreward",
+      "discovered_at": "2026-11-14 03:18:10"
     },
     {
       "url": "https://ofw.adison.co/u/naverpay/ads/889076",
-      "discovered_at": "2026-11-14 08:01:14"
+      "discovered_at": "2026-11-14 12:24:21"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/67823",
+      "discovered_at": "2026-11-14 12:24:21"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/branddraw/?from=pointtab",
+      "discovered_at": "2026-11-14 12:24:21"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/1244252",
+      "discovered_at": "2026-11-14 13:56:24"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/1131212",
+      "discovered_at": "2026-11-14 13:56:24"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/1112602",
+      "discovered_at": "2026-11-14 13:56:24"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/1073021",
+      "discovered_at": "2026-11-14 14:44:56"
+    },
+    {
+      "url": "https://point.pay.naver.com/mission-detail?dataType=category&rank=16&pageKey=quickreward&rankType=RANDOM&mssCode=quickreward",
+      "discovered_at": "2026-11-14 14:45:00"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/1252663",
+      "discovered_at": "2026-11-14 14:45:02"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/1252994",
+      "discovered_at": "2026-11-14 14:45:08"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026110103_2611_1527",
+      "discovered_at": "2026-11-14 14:45:08"
     }
   ],
   "deleted_urls": [
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=130133_261101_tjsxor_1200",
-      "deleted_at": "2026-11-13 21:48:21"
+      "deleted_at": "2026-11-14 12:24:13"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026110104_2611_1110",
-      "deleted_at": "2026-11-13 21:48:21"
+      "deleted_at": "2026-11-14 12:24:13"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026110107_2611_1111",
-      "deleted_at": "2026-11-13 21:48:21"
+      "deleted_at": "2026-11-14 12:24:13"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026111001_2611_1746",
-      "deleted_at": "2026-11-13 21:48:21"
+      "deleted_at": "2026-11-14 12:24:13"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_20261110_2611_1615",
-      "deleted_at": "2026-11-13 21:48:21"
+      "deleted_at": "2026-11-14 12:24:13"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_20261110_2611_1859",
-      "deleted_at": "2026-11-13 21:48:21"
+      "deleted_at": "2026-11-14 12:24:13"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026111204_2611_02_1428",
-      "deleted_at": "2026-11-13 21:48:21"
+      "deleted_at": "2026-11-14 12:24:13"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_20261112_2611_1454",
-      "deleted_at": "2026-11-13 21:48:21"
+      "deleted_at": "2026-11-14 12:24:13"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261110_1527",
-      "deleted_at": "2026-11-13 21:48:21"
+      "deleted_at": "2026-11-14 12:24:13"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261110_1577",
-      "deleted_at": "2026-11-13 21:48:21"
+      "deleted_at": "2026-11-14 12:24:13"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261111_1235",
-      "deleted_at": "2026-11-13 21:48:21"
+      "deleted_at": "2026-11-14 12:24:13"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261111_1255",
-      "deleted_at": "2026-11-13 21:48:21"
+      "deleted_at": "2026-11-14 12:24:13"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_advice_261110",
-      "deleted_at": "2026-11-13 21:48:21"
+      "deleted_at": "2026-11-14 12:24:13"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_appstore_261112",
-      "deleted_at": "2026-11-13 21:48:21"
+      "deleted_at": "2026-11-14 12:24:13"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_benefit_261110",
-      "deleted_at": "2026-11-13 21:48:21"
+      "deleted_at": "2026-11-14 12:24:13"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_benefit_261111",
-      "deleted_at": "2026-11-13 21:48:21"
+      "deleted_at": "2026-11-14 12:24:13"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_benefit_261113",
-      "deleted_at": "2026-11-14 00:01:08"
+      "deleted_at": "2026-11-14 12:24:13"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_loan_house_261110",
-      "deleted_at": "2026-11-13 21:48:21"
+      "deleted_at": "2026-11-14 12:24:13"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_loan_house_261113",
-      "deleted_at": "2026-11-14 00:01:08"
+      "deleted_at": "2026-11-14 12:24:13"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_mycar_261113",
-      "deleted_at": "2026-11-14 00:01:08"
+      "deleted_at": "2026-11-14 12:24:13"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_overseastrip_261112",
-      "deleted_at": "2026-11-13 21:48:21"
+      "deleted_at": "2026-11-14 12:24:13"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_seasonal_261111",
-      "deleted_at": "2026-11-13 21:48:21"
+      "deleted_at": "2026-11-14 12:24:13"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_wooricard_261111",
-      "deleted_at": "2026-11-13 21:48:21"
+      "deleted_at": "2026-11-14 12:24:13"
     },
     {
       "url": "https://ofw.adison.co/u/naverpay/ads/1137027",
-      "deleted_at": "2026-11-13 21:48:21"
+      "deleted_at": "2026-11-14 12:24:13"
     },
     {
       "url": "https://ofw.adison.co/u/naverpay/ads/1250806",
-      "deleted_at": "2026-11-13 21:48:21"
+      "deleted_at": "2026-11-14 12:24:13"
     },
     {
       "url": "https://ofw.adison.co/u/naverpay/ads/889076https://new-m.pay.naver.com/eventbenefit/bridge?fromPage=DETAIL_FROM_LIST&deviceType=pc&adId=889076",
-      "deleted_at": "2026-11-13 21:48:21"
+      "deleted_at": "2026-11-14 12:24:13"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/889076https://point.pay.naver.com/pc/mission-detail?dataType=category&rank=16&pageKey=quickreward",
+      "deleted_at": "2026-11-14 12:24:13"
     },
     {
       "url": "https://point.pay.naver.com/mission-detail?rank=6&mssCode=promotion&promoCode=quiz_s",
-      "deleted_at": "2026-11-13 21:48:21"
+      "deleted_at": "2026-11-14 12:24:13"
     }
   ]
 }
