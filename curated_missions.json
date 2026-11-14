@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-14 23:50:41",
-  "total_active": 21,
+  "updated_at": "2026-11-15 00:20:37",
+  "total_active": 22,
   "missions": [
     {
       "url": "https://home.pay.naver.com/?from=main_pay_icon",
@@ -20,18 +20,6 @@
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026111401_2611_03_1702",
-      "discovered_at": "2026-11-14 03:18:10"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_benefit_261114",
-      "discovered_at": "2026-11-14 03:18:10"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_stock_261114",
-      "discovered_at": "2026-11-14 03:18:10"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_moneycard_261114",
       "discovered_at": "2026-11-14 03:18:10"
     },
     {
@@ -85,6 +73,22 @@
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026110103_2611_1527",
       "discovered_at": "2026-11-14 14:45:08"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026110104_2611_1115",
+      "discovered_at": "2026-11-15 00:20:12"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_benefit_261115",
+      "discovered_at": "2026-11-15 00:20:12"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_driver_261115",
+      "discovered_at": "2026-11-15 00:20:12"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_thismonth_261115",
+      "discovered_at": "2026-11-15 00:20:12"
     }
   ],
   "deleted_urls": [
@@ -157,12 +161,20 @@
       "deleted_at": "2026-11-14 12:24:13"
     },
     {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_benefit_261114",
+      "deleted_at": "2026-11-15 00:20:02"
+    },
+    {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_loan_house_261110",
       "deleted_at": "2026-11-14 12:24:13"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_loan_house_261113",
       "deleted_at": "2026-11-14 12:24:13"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_moneycard_261114",
+      "deleted_at": "2026-11-15 00:20:02"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_mycar_261113",
@@ -175,6 +187,10 @@
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_seasonal_261111",
       "deleted_at": "2026-11-14 12:24:13"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_stock_261114",
+      "deleted_at": "2026-11-15 00:20:02"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_wooricard_261111",
