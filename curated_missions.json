@@ -1,35 +1,7 @@
 {
-  "updated_at": "2026-11-15 02:50:39",
+  "updated_at": "2026-11-15 03:20:38",
   "total_active": 22,
   "missions": [
-    {
-      "url": "https://home.pay.naver.com/?from=main_pay_icon",
-      "discovered_at": "2026-11-14 03:18:10"
-    },
-    {
-      "url": "https://home.pay.naver.com/?from=pay_main",
-      "discovered_at": "2026-11-14 03:18:10"
-    },
-    {
-      "url": "https://external-token.pay.naver.com/entry/pincrux?gd=ab8e18ef4ebebeddc0b3152ce9c9006e14fc05242e3fc9ce32246ea6a9543074",
-      "discovered_at": "2026-11-14 03:18:10"
-    },
-    {
-      "url": "https://point.pay.naver.com/mission-detail?dataType=module&rank=7&pageKey=pensionmission&rankType=RANDOM_DAILY&sortCompletedAdToLast=false&mssCode=pensionmission",
-      "discovered_at": "2026-11-14 03:18:10"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026111401_2611_03_1702",
-      "discovered_at": "2026-11-14 03:18:10"
-    },
-    {
-      "url": "https://ofw.adison.co/u/naverpay/ads/730013",
-      "discovered_at": "2026-11-14 03:18:10"
-    },
-    {
-      "url": "https://point.pay.naver.com/main?category=quickreward",
-      "discovered_at": "2026-11-14 03:18:10"
-    },
     {
       "url": "https://ofw.adison.co/u/naverpay/ads/889076",
       "discovered_at": "2026-11-14 12:24:21"
@@ -89,6 +61,34 @@
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_thismonth_261115",
       "discovered_at": "2026-11-15 00:20:12"
+    },
+    {
+      "url": "https://point.pay.naver.com/mission-detail?dataType=module&rank=7&pageKey=pensionmission&rankType=RANDOM_DAILY&sortCompletedAdToLast=false&mssCode=pensionmission",
+      "discovered_at": "2026-11-15 03:20:09"
+    },
+    {
+      "url": "https://external-token.pay.naver.com/entry/pincrux?gd=ab8e18ef4ebebeddc0b3152ce9c9006e14fc05242e3fc9ce32246ea6a9543074",
+      "discovered_at": "2026-11-15 03:20:10"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/730013",
+      "discovered_at": "2026-11-15 03:20:10"
+    },
+    {
+      "url": "https://point.pay.naver.com/main?category=quickreward",
+      "discovered_at": "2026-11-15 03:20:10"
+    },
+    {
+      "url": "https://home.pay.naver.com/?from=pay_main",
+      "discovered_at": "2026-11-15 03:20:12"
+    },
+    {
+      "url": "https://home.pay.naver.com/?from=main_pay_icon",
+      "discovered_at": "2026-11-15 03:20:13"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026111401_2611_03_1702",
+      "discovered_at": "2026-11-15 03:20:26"
     }
   ],
   "deleted_urls": [
