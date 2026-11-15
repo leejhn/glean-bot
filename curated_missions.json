@@ -1,11 +1,7 @@
 {
-  "updated_at": "2026-11-16 00:20:47",
-  "total_active": 40,
+  "updated_at": "2026-11-16 00:50:46",
+  "total_active": 39,
   "missions": [
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026110104_2611_1115",
-      "discovered_at": "2026-11-15 00:20:12"
-    },
     {
       "url": "https://point.pay.naver.com/mission-detail?dataType=module&rank=7&pageKey=pensionmission&rankType=RANDOM_DAILY&sortCompletedAdToLast=false&mssCode=pensionmission",
       "discovered_at": "2026-11-15 03:20:09"
