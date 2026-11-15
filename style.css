@@ -1,114 +1,26 @@
 @charset "UTF-8";
-@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import url("https://leejhn.github.io/theme.css");
 
 /* ==========================================================================
-   DESIGN TOKENS - Light Theme (Default Ambient Glass)
+   DESIGN TOKENS - glean-bot Accent Overrides (Gold Amber from Icon)
    ========================================================================== */
 :root {
-  /* Colors - Base & Surfaces */
-  --color-bg-base: #f0f2f6;
-  --color-bg-gradient:
-    radial-gradient(110% 90% at 88% -5%, rgba(3, 199, 90, 0.12) 0%, transparent 52%),
-    radial-gradient(90% 85% at 8% 25%, rgba(2, 132, 199, 0.08) 0%, transparent 48%),
-    radial-gradient(80% 80% at 85% 90%, rgba(16, 185, 129, 0.07) 0%, transparent 50%),
-    #f1f4f9;
-
-  --color-surface: rgba(255, 255, 255, 0.84);
-  --color-surface-solid: #ffffff;
-  --color-surface-hover: rgba(255, 255, 255, 0.95);
-  --color-surface-floating: rgba(255, 255, 255, 0.88);
-  --color-surface-inset: rgba(241, 245, 249, 0.78);
-  --color-border-glass: rgba(255, 255, 255, 0.88);
-  --color-border-subtle: rgba(226, 232, 240, 0.85);
-  --color-divider: rgba(15, 23, 42, 0.07);
-
-  /* Typography Colors */
-  --color-text-primary: #0f172a;
-  --color-text-secondary: #475569;
-  --color-text-muted: #64748b;
-  --color-text-subtle: #94a3b8;
-  --color-text-inverse: #ffffff;
-
-  /* Brand & Accents */
-  --color-brand: #03c75a;
-  --color-brand-dark: #009e46;
-  --color-brand-deep: #047857;
-  --color-brand-soft: rgba(3, 199, 90, 0.1);
-  --color-brand-border: rgba(3, 199, 90, 0.28);
-
-  --color-accent-blue: #0284c7;
-  --color-accent-blue-soft: rgba(2, 132, 199, 0.1);
-  --color-accent-amber: #d97706;
-  --color-accent-amber-soft: rgba(217, 119, 6, 0.1);
-  --color-accent-slate: #64748b;
-  --color-danger: #ef4444;
-
-  /* Shadows & Elevation */
-  --shadow-subtle: 0 1px 3px rgba(15, 23, 42, 0.04), 0 1px 2px rgba(15, 23, 42, 0.02);
-  --shadow-card: 0 8px 24px -4px rgba(15, 23, 42, 0.05), 0 2px 6px -1px rgba(15, 23, 42, 0.03);
-  --shadow-floating: 0 14px 34px -6px rgba(15, 23, 42, 0.08), 0 4px 10px -2px rgba(15, 23, 42, 0.04);
-  --shadow-hero: 0 20px 44px -10px rgba(15, 23, 42, 0.09), 0 4px 12px -2px rgba(15, 23, 42, 0.04);
-
-  /* Spacing (4/8px scale) */
-  --space-1: 4px;
-  --space-2: 8px;
-  --space-3: 12px;
-  --space-4: 16px;
-  --space-5: 20px;
-  --space-6: 24px;
-  --space-7: 32px;
-  --space-8: 40px;
-
-  /* Radii */
-  --radius-control: 12px;
-  --radius-inset: 16px;
-  --radius-card: 24px;
-  --radius-hero: 32px;
-  --radius-pill: 9999px;
-
-  /* Blur */
-  --blur-surface: blur(16px);
-  --blur-subtle: blur(10px);
-
-  /* Transitions */
-  --motion-quick: 0.16s cubic-bezier(0.16, 1, 0.3, 1);
-  --motion-standard: 0.26s cubic-bezier(0.16, 1, 0.3, 1);
+  --color-brand: var(--color-glean, #d97706);
+  --color-brand-dark: var(--color-glean-dark, #b45309);
+  --color-brand-deep: #b45309;
+  --color-brand-soft: var(--color-glean-soft, rgba(245, 158, 11, 0.12));
+  --color-brand-border: var(--color-glean-border, rgba(245, 158, 11, 0.34));
 }
 
 /* ==========================================================================
-   DESIGN TOKENS - Black Theme (Dark Ambient Glass)
+   DESIGN TOKENS - Black Theme Accent Overrides
    ========================================================================== */
 [data-theme="black"] {
-  --color-bg-base: #0b0f19;
-  --color-bg-gradient:
-    radial-gradient(110% 90% at 88% -5%, rgba(3, 199, 90, 0.16) 0%, transparent 52%),
-    radial-gradient(90% 85% at 8% 25%, rgba(2, 132, 199, 0.12) 0%, transparent 48%),
-    radial-gradient(80% 80% at 85% 90%, rgba(16, 185, 129, 0.09) 0%, transparent 50%),
-    #0b0f19;
-
-  --color-surface: rgba(22, 29, 43, 0.84);
-  --color-surface-solid: #161d2b;
-  --color-surface-hover: rgba(30, 41, 59, 0.94);
-  --color-surface-floating: rgba(24, 33, 49, 0.88);
-  --color-surface-inset: rgba(15, 23, 42, 0.78);
-  --color-border-glass: rgba(255, 255, 255, 0.11);
-  --color-border-subtle: rgba(51, 65, 85, 0.65);
-  --color-divider: rgba(255, 255, 255, 0.08);
-
-  --color-text-primary: #f8fafc;
-  --color-text-secondary: #cbd5e1;
-  --color-text-muted: #94a3b8;
-  --color-text-subtle: #64748b;
-
-  --color-brand-dark: #34d399;
-  --color-brand-deep: #34d399;
-  --color-brand-soft: rgba(3, 199, 90, 0.18);
-  --color-brand-border: rgba(52, 211, 153, 0.32);
-
-  --shadow-subtle: 0 1px 3px rgba(0, 0, 0, 0.25);
-  --shadow-card: 0 10px 28px -4px rgba(0, 0, 0, 0.4);
-  --shadow-floating: 0 14px 36px -6px rgba(0, 0, 0, 0.5);
-  --shadow-hero: 0 22px 48px -10px rgba(0, 0, 0, 0.55);
+  --color-brand: var(--color-glean, #f59e0b);
+  --color-brand-dark: #fbbf24;
+  --color-brand-deep: #fbbf24;
+  --color-brand-soft: var(--color-glean-soft, rgba(245, 158, 11, 0.16));
+  --color-brand-border: var(--color-glean-border, rgba(251, 191, 36, 0.38));
 }
 
 /* ==========================================================================
@@ -231,6 +143,7 @@ header {
 .header-right {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: var(--space-2);
 }
 
@@ -318,7 +231,7 @@ nav a.active {
   width: 260px;
   height: 260px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(3, 199, 90, 0.14) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(245, 158, 11, 0.14) 0%, rgba(56, 189, 248, 0.08) 50%, transparent 72%);
   pointer-events: none;
 }
 
@@ -364,7 +277,7 @@ nav a.active {
   height: 6px;
   border-radius: 50%;
   background: var(--color-brand);
-  box-shadow: 0 0 0 3px rgba(3, 199, 90, 0.2);
+  box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.22);
 }
 
 .badge-neutral {
@@ -410,20 +323,21 @@ h1 {
   gap: 8px;
   padding: 13px 26px;
   border-radius: var(--radius-pill);
-  background: linear-gradient(135deg, #03c75a 0%, #00b249 100%);
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
   color: #ffffff !important;
   font-size: 15px;
   font-weight: 800;
   text-decoration: none !important;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.14);
   border: 1px solid rgba(255, 255, 255, 0.25);
-  box-shadow: 0 6px 20px -2px rgba(3, 199, 90, 0.4);
+  box-shadow: 0 6px 20px -2px rgba(217, 119, 6, 0.36);
   transition: transform var(--motion-quick), box-shadow var(--motion-quick), background var(--motion-quick);
 }
 
 .btn-install:hover {
   transform: translateY(-2px);
-  background: linear-gradient(135deg, #02b652 0%, #009e41 100%);
-  box-shadow: 0 10px 24px -2px rgba(3, 199, 90, 0.48);
+  background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
+  box-shadow: 0 10px 24px -2px rgba(217, 119, 6, 0.46);
 }
 
 .btn-install:active {
@@ -724,7 +638,7 @@ a:hover {
 }
 
 .step-num {
-  background: linear-gradient(135deg, #03c75a 0%, #00b249 100%);
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
   color: #ffffff;
   width: 28px;
   height: 28px;
@@ -736,7 +650,7 @@ a:hover {
   font-size: 13px;
   flex-shrink: 0;
   margin-top: 1px;
-  box-shadow: 0 3px 8px rgba(3, 199, 90, 0.28);
+  box-shadow: 0 3px 8px rgba(217, 119, 6, 0.28);
   font-variant-numeric: tabular-nums;
 }
 

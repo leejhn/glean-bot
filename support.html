@@ -7,10 +7,11 @@
   <title>자주 묻는 질문 (FAQ) - 엔페이 포인트 자동 줍기(glean-bot)</title>
   <link rel="icon" type="image/png" sizes="48x48" href="icons/icon48.png">
   <link rel="icon" type="image/png" sizes="16x16" href="icons/icon16.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="style.css">
   <script>
     (function () {
-      const saved = localStorage.getItem("glean-theme");
+      const saved = localStorage.getItem("portal-theme") || localStorage.getItem("glean-theme");
       if (saved === "black") document.documentElement.setAttribute("data-theme", "black");
     })();
   </script>
@@ -31,12 +32,13 @@
           </div>
         </a>
         <div class="header-right">
+          <a href="https://leejhn.github.io/" class="hub-back-link"><i class="fa-solid fa-chevron-left"></i> 허브</a>
           <nav aria-label="주요 메뉴">
             <a href="index.html">소개</a>
             <a href="privacy.html">개인정보처리방침</a>
             <a href="support.html" class="active">FAQ</a>
           </nav>
-          <button type="button" id="themeToggleBtn" class="theme-toggle-btn" title="화면 테마 전환 (Light / Black)" aria-label="화면 테마 전환">☀️</button>
+          <button type="button" id="themeToggleBtn" class="theme-toggle-btn" title="화면 테마 전환 (Light / Black)" aria-label="화면 테마 전환"><i class="fa-solid fa-moon" id="themeIcon"></i></button>
         </div>
       </div>
     </header>
@@ -89,20 +91,22 @@
   <script>
     (function () {
       const btn = document.getElementById("themeToggleBtn");
+      const icon = document.getElementById("themeIcon");
       const updateIcon = () => {
         const isBlack = document.documentElement.getAttribute("data-theme") === "black";
-        btn.textContent = isBlack ? "🌙" : "☀️";
+        if (icon) icon.className = isBlack ? "fa-solid fa-sun" : "fa-solid fa-moon";
       };
       updateIcon();
       btn.addEventListener("click", () => {
         const isBlack = document.documentElement.getAttribute("data-theme") === "black";
+        const next = isBlack ? "light" : "black";
         if (isBlack) {
           document.documentElement.removeAttribute("data-theme");
-          localStorage.setItem("glean-theme", "light");
         } else {
           document.documentElement.setAttribute("data-theme", "black");
-          localStorage.setItem("glean-theme", "black");
         }
+        localStorage.setItem("portal-theme", next);
+        localStorage.setItem("glean-theme", next);
         updateIcon();
       });
     })();
