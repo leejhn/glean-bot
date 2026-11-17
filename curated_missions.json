@@ -1,30 +1,10 @@
 {
-  "updated_at": "2026-11-17 23:50:34",
-  "total_active": 39,
+  "updated_at": "2026-11-18 00:20:32",
+  "total_active": 40,
   "missions": [
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261117_1433",
-      "discovered_at": "2026-11-17 09:24:11"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261117_1477",
-      "discovered_at": "2026-11-17 09:24:11"
-    },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026111701_2611_1026",
       "discovered_at": "2026-11-17 09:24:13"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_benefit_261117",
-      "discovered_at": "2026-11-17 09:24:14"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_loan_261117",
-      "discovered_at": "2026-11-17 09:24:14"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_pension_261117",
-      "discovered_at": "2026-11-17 09:24:14"
     },
     {
       "url": "https://ofw.adison.co/u/naverpay/ads/1015617",
@@ -157,6 +137,30 @@
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026111611_2611_1543",
       "discovered_at": "2026-11-17 17:50:19"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261118_1104",
+      "discovered_at": "2026-11-18 00:20:09"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261118_1144",
+      "discovered_at": "2026-11-18 00:20:09"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026111607_2611_1118",
+      "discovered_at": "2026-11-18 00:20:09"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_benefit_261118",
+      "discovered_at": "2026-11-18 00:20:09"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_facesign_261118",
+      "discovered_at": "2026-11-18 00:20:09"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_minigame_261118",
+      "discovered_at": "2026-11-18 00:20:09"
     }
   ],
   "deleted_urls": [
@@ -221,6 +225,14 @@
       "deleted_at": "2026-11-17 09:24:08"
     },
     {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261117_1433",
+      "deleted_at": "2026-11-18 00:20:03"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261117_1477",
+      "deleted_at": "2026-11-18 00:20:03"
+    },
+    {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_advice_261110",
       "deleted_at": "2026-11-14 12:24:13"
     },
@@ -253,12 +265,20 @@
       "deleted_at": "2026-11-17 09:24:08"
     },
     {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_benefit_261117",
+      "deleted_at": "2026-11-18 00:20:03"
+    },
+    {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_driver_261115",
       "deleted_at": "2026-11-16 00:20:04"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_hd_ed3_261116",
       "deleted_at": "2026-11-17 09:24:08"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_loan_261117",
+      "deleted_at": "2026-11-18 00:20:03"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_loan_house_261110",
@@ -279,6 +299,10 @@
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_overseastrip_261112",
       "deleted_at": "2026-11-14 12:24:13"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_pension_261117",
+      "deleted_at": "2026-11-18 00:20:03"
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_seasonal_261111",
