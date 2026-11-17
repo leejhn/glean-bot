@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-17 09:50:39",
-  "total_active": 38,
+  "updated_at": "2026-11-17 10:20:40",
+  "total_active": 39,
   "missions": [
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026111607_2611_1758",
@@ -153,6 +153,10 @@
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026111613_2611_1800",
       "discovered_at": "2026-11-17 09:24:36"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/1252663",
+      "discovered_at": "2026-11-17 10:20:27"
     }
   ],
   "deleted_urls": [
