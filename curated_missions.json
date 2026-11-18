@@ -1,11 +1,7 @@
 {
-  "updated_at": "2026-11-19 00:20:33",
+  "updated_at": "2026-11-19 00:50:32",
   "total_active": 28,
   "missions": [
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026111607_2611_1118",
-      "discovered_at": "2026-11-18 00:20:09"
-    },
     {
       "url": "https://external-token.pay.naver.com/entry/pincrux?gd=ab8e18ef4ebebeddc0b3152ce9c9006e14fc05242e3fc9ce32246ea6a9543074",
       "discovered_at": "2026-11-18 09:50:09"
@@ -113,6 +109,10 @@
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_global_china_261119",
       "discovered_at": "2026-11-19 00:20:11"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026111607_2611_1118",
+      "discovered_at": "2026-11-19 00:50:27"
     }
   ],
   "deleted_urls": [
