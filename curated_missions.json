@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-20 00:58:15",
-  "total_active": 22,
+  "updated_at": "2026-11-20 01:20:37",
+  "total_active": 18,
   "missions": [
     {
       "url": "https://external-token.pay.naver.com/entry/pincrux?gd=ab8e18ef4ebebeddc0b3152ce9c9006e14fc05242e3fc9ce32246ea6a9543074",
@@ -39,24 +39,8 @@
       "discovered_at": "2026-11-19 23:09:40"
     },
     {
-      "url": "https://ofw.adison.co/u/naverpay/ads/1185960",
-      "discovered_at": "2026-11-19 23:20:20"
-    },
-    {
-      "url": "https://ofw.adison.co/u/naverpay/ads/1244252",
-      "discovered_at": "2026-11-19 23:20:20"
-    },
-    {
-      "url": "https://ofw.adison.co/u/naverpay/ads/1131212",
-      "discovered_at": "2026-11-19 23:20:20"
-    },
-    {
       "url": "https://ofw.adison.co/u/naverpay/ads/1112602",
       "discovered_at": "2026-11-19 23:20:20"
-    },
-    {
-      "url": "https://ofw.adison.co/u/naverpay/ads/889076",
-      "discovered_at": "2026-11-19 23:20:36"
     },
     {
       "url": "https://ofw.adison.co/u/naverpay/ads/1066550",
@@ -99,6 +83,22 @@
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261119_1277",
       "deleted_at": "2026-11-20 00:47:32"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/1131212",
+      "deleted_at": "2026-11-20 01:20:03"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/1185960",
+      "deleted_at": "2026-11-20 01:20:03"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/1244252",
+      "deleted_at": "2026-11-20 01:20:03"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/889076",
+      "deleted_at": "2026-11-20 01:20:03"
     }
   ]
 }
