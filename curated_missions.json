@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-19 13:20:32",
-  "total_active": 23,
+  "updated_at": "2026-11-19 13:50:38",
+  "total_active": 24,
   "missions": [
     {
       "url": "https://campaign2.naver.com/npay/branddraw/?from=pointtab",
@@ -93,6 +93,10 @@
     {
       "url": "https://point.pay.naver.com/mission-detail?dataType=category&rank=16&pageKey=quickreward&rankType=RANDOM&mssCode=quickreward",
       "discovered_at": "2026-11-19 11:20:05"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/1261940",
+      "discovered_at": "2026-11-19 13:50:27"
     }
   ],
   "deleted_urls": [
