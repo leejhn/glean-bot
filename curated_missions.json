@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-19 23:09:40",
-  "total_active": 14,
+  "updated_at": "2026-11-19 23:50:37",
+  "total_active": 20,
   "missions": [
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026111904_2611_03_1047",
@@ -60,8 +60,27 @@
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=130133_261101_tjsxor_1200",
-      "category": "캠페인 클릭",
       "discovered_at": "2026-11-19 23:09:40"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/1185960",
+      "discovered_at": "2026-11-19 23:20:20"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/1244252",
+      "discovered_at": "2026-11-19 23:20:20"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/1131212",
+      "discovered_at": "2026-11-19 23:20:20"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/1112602",
+      "discovered_at": "2026-11-19 23:20:20"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/889076",
+      "discovered_at": "2026-11-19 23:20:36"
     }
   ],
   "deleted_urls": []
