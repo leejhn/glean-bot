@@ -1,11 +1,7 @@
 {
-  "updated_at": "2026-11-19 12:20:31",
-  "total_active": 24,
+  "updated_at": "2026-11-19 12:50:32",
+  "total_active": 23,
   "missions": [
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026111607_2611_1758",
-      "discovered_at": "2026-11-18 12:20:23"
-    },
     {
       "url": "https://campaign2.naver.com/npay/branddraw/?from=pointtab",
       "discovered_at": "2026-11-18 14:20:05"
