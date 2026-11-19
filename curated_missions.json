@@ -1,39 +1,7 @@
 {
-  "updated_at": "2026-11-19 09:50:32",
-  "total_active": 28,
+  "updated_at": "2026-11-19 10:20:31",
+  "total_active": 25,
   "missions": [
-    {
-      "url": "https://external-token.pay.naver.com/entry/pincrux?gd=ab8e18ef4ebebeddc0b3152ce9c9006e14fc05242e3fc9ce32246ea6a9543074",
-      "discovered_at": "2026-11-18 09:50:09"
-    },
-    {
-      "url": "https://ofw.adison.co/u/naverpay/ads/730013",
-      "discovered_at": "2026-11-18 09:50:09"
-    },
-    {
-      "url": "https://point.pay.naver.com/main?category=quickreward",
-      "discovered_at": "2026-11-18 09:50:09"
-    },
-    {
-      "url": "https://home.pay.naver.com/?from=pay_main",
-      "discovered_at": "2026-11-18 09:50:11"
-    },
-    {
-      "url": "https://home.pay.naver.com/?from=main_pay_icon",
-      "discovered_at": "2026-11-18 09:50:12"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026111615_2611_1650",
-      "discovered_at": "2026-11-18 09:50:19"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026111701_2611_1026",
-      "discovered_at": "2026-11-18 09:50:28"
-    },
-    {
-      "url": "https://ofw.adison.co/u/naverpay/ads/1015617",
-      "discovered_at": "2026-11-18 09:50:28"
-    },
     {
       "url": "https://point.pay.naver.com/mission-detail?dataType=category&rank=16&pageKey=quickreward&rankType=RANDOM&mssCode=quickreward",
       "discovered_at": "2026-11-18 10:50:05"
@@ -113,6 +81,26 @@
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026111607_2611_1118",
       "discovered_at": "2026-11-19 00:50:27"
+    },
+    {
+      "url": "https://external-token.pay.naver.com/entry/pincrux?gd=ab8e18ef4ebebeddc0b3152ce9c9006e14fc05242e3fc9ce32246ea6a9543074",
+      "discovered_at": "2026-11-19 10:20:10"
+    },
+    {
+      "url": "https://home.pay.naver.com/?from=pay_main",
+      "discovered_at": "2026-11-19 10:20:10"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/730013",
+      "discovered_at": "2026-11-19 10:20:11"
+    },
+    {
+      "url": "https://point.pay.naver.com/main?category=quickreward",
+      "discovered_at": "2026-11-19 10:20:11"
+    },
+    {
+      "url": "https://home.pay.naver.com/?from=main_pay_icon",
+      "discovered_at": "2026-11-19 10:20:12"
     }
   ],
   "deleted_urls": [
