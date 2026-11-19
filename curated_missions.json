@@ -1,15 +1,7 @@
 {
-  "updated_at": "2026-11-19 10:50:32",
-  "total_active": 25,
+  "updated_at": "2026-11-19 11:20:32",
+  "total_active": 24,
   "missions": [
-    {
-      "url": "https://point.pay.naver.com/mission-detail?dataType=category&rank=16&pageKey=quickreward&rankType=RANDOM&mssCode=quickreward",
-      "discovered_at": "2026-11-18 10:50:05"
-    },
-    {
-      "url": "https://ofw.adison.co/u/naverpay/ads/1252663",
-      "discovered_at": "2026-11-18 10:50:27"
-    },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026111607_2611_1758",
       "discovered_at": "2026-11-18 12:20:23"
@@ -101,6 +93,10 @@
     {
       "url": "https://home.pay.naver.com/?from=main_pay_icon",
       "discovered_at": "2026-11-19 10:20:12"
+    },
+    {
+      "url": "https://point.pay.naver.com/mission-detail?dataType=category&rank=16&pageKey=quickreward&rankType=RANDOM&mssCode=quickreward",
+      "discovered_at": "2026-11-19 11:20:05"
     }
   ],
   "deleted_urls": [
