@@ -1,30 +1,10 @@
 {
-  "updated_at": "2026-11-19 23:50:37",
-  "total_active": 20,
+  "updated_at": "2026-11-20 00:20:34",
+  "total_active": 22,
   "missions": [
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026111904_2611_03_1047",
       "discovered_at": "2026-11-19 00:20:08"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261119_1217",
-      "discovered_at": "2026-11-19 00:20:11"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261119_1277",
-      "discovered_at": "2026-11-19 00:20:11"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_benefit_261119",
-      "discovered_at": "2026-11-19 00:20:11"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_moneycardY_261119",
-      "discovered_at": "2026-11-19 00:20:11"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_global_china_261119",
-      "discovered_at": "2026-11-19 00:20:11"
     },
     {
       "url": "https://external-token.pay.naver.com/entry/pincrux?gd=ab8e18ef4ebebeddc0b3152ce9c9006e14fc05242e3fc9ce32246ea6a9543074",
@@ -81,7 +61,40 @@
     {
       "url": "https://ofw.adison.co/u/naverpay/ads/889076",
       "discovered_at": "2026-11-19 23:20:36"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/1066550",
+      "discovered_at": "2026-11-20 00:20:06"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026112001_2611_1051",
+      "discovered_at": "2026-11-20 00:20:08"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_global_japan_261120",
+      "discovered_at": "2026-11-20 00:20:12"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_carinsur_261120",
+      "discovered_at": "2026-11-20 00:20:12"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261120_1527",
+      "discovered_at": "2026-11-20 00:20:12"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261120_1522",
+      "discovered_at": "2026-11-20 00:20:12"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_benefit_261120",
+      "discovered_at": "2026-11-20 00:20:12"
     }
   ],
-  "deleted_urls": []
+  "deleted_urls": [
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261119_1217",
+      "deleted_at": "2026-11-20 00:20:03"
+    }
+  ]
 }
