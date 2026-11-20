@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20 18:30:06",
+  "updated_at": "2026-11-20 18:36:01",
   "total_active": 21,
   "missions": [
     {
@@ -20,31 +20,38 @@
     },
     {
       "url": "https://ofw.adison.co/u/naverpay/ads/1066550",
-      "discovered_at": "2026-11-20 00:20:06"
+      "discovered_at": "2026-11-20 00:20:06",
+      "point": 1
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026112001_2611_1051",
-      "discovered_at": "2026-11-20 00:20:08"
+      "discovered_at": "2026-11-20 00:20:08",
+      "point": 15
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_global_japan_261120",
-      "discovered_at": "2026-11-20 00:20:12"
+      "discovered_at": "2026-11-20 00:20:12",
+      "point": 1
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_carinsur_261120",
-      "discovered_at": "2026-11-20 00:20:12"
+      "discovered_at": "2026-11-20 00:20:12",
+      "point": 1
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261120_1527",
-      "discovered_at": "2026-11-20 00:20:12"
+      "discovered_at": "2026-11-20 00:20:12",
+      "point": 10
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261120_1522",
-      "discovered_at": "2026-11-20 00:20:12"
+      "discovered_at": "2026-11-20 00:20:12",
+      "point": 10
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_benefit_261120",
-      "discovered_at": "2026-11-20 00:20:12"
+      "discovered_at": "2026-11-20 00:20:12",
+      "point": 1
     },
     {
       "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026111904_2611_03_1047",
@@ -60,7 +67,8 @@
     },
     {
       "url": "https://ofw.adison.co/u/naverpay/ads/730013",
-      "discovered_at": "2026-11-20 10:50:15"
+      "discovered_at": "2026-11-20 10:50:15",
+      "point": 1
     },
     {
       "url": "https://home.pay.naver.com/?from=main_pay_icon",
@@ -80,7 +88,8 @@
     },
     {
       "url": "https://ofw.adison.co/u/naverpay/ads/67823",
-      "discovered_at": "2026-11-20 18:24:47"
+      "discovered_at": "2026-11-20 18:24:47",
+      "point": 1
     },
     {
       "url": "https://ofw.adison.co/u/naverpay/ads/1261940",
