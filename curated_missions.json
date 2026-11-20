@@ -1,11 +1,7 @@
 {
-  "updated_at": "2026-11-20 23:20:39",
+  "updated_at": "2026-11-20 23:44:24",
   "total_active": 16,
   "missions": [
-    {
-      "url": "https://ofw.adison.co/u/naverpay/ads/1112602",
-      "discovered_at": "2026-11-19 23:20:20"
-    },
     {
       "url": "https://ofw.adison.co/u/naverpay/ads/1066550",
       "discovered_at": "2026-11-20 00:20:06",
@@ -74,6 +70,10 @@
     {
       "url": "https://ofw.adison.co/u/naverpay/ads/1262572",
       "discovered_at": "2026-11-20 20:50:23"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/1112602",
+      "discovered_at": "2026-11-20 23:44:06"
     }
   ],
   "deleted_urls": [
