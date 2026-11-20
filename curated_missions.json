@@ -1,117 +1,96 @@
 {
-  "updated_at": "2026-11-20 23:50:39",
-  "total_active": 16,
+  "updated_at": "2026-11-19 22:37:48",
+  "total_active": 21,
   "missions": [
     {
-      "url": "https://ofw.adison.co/u/naverpay/ads/1066550",
-      "discovered_at": "2026-11-20 00:20:06",
-      "point": 1
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026112001_2611_1051",
-      "discovered_at": "2026-11-20 00:20:08",
-      "point": 15
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_global_japan_261120",
-      "discovered_at": "2026-11-20 00:20:12",
-      "point": 1
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_carinsur_261120",
-      "discovered_at": "2026-11-20 00:20:12",
-      "point": 1
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261120_1527",
-      "discovered_at": "2026-11-20 00:20:12",
-      "point": 10
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261120_1522",
-      "discovered_at": "2026-11-20 00:20:12",
-      "point": 10
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_benefit_261120",
-      "discovered_at": "2026-11-20 00:20:12",
-      "point": 1
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026111904_2611_03_1047",
-      "discovered_at": "2026-11-20 00:48:05"
-    },
-    {
-      "url": "https://external-token.pay.naver.com/entry/pincrux?gd=ab8e18ef4ebebeddc0b3152ce9c9006e14fc05242e3fc9ce32246ea6a9543074",
-      "discovered_at": "2026-11-20 10:50:13"
+      "url": "https://home.pay.naver.com/?from=main_pay_icon",
+      "discovered_at": "2026-11-14 03:18:10"
     },
     {
       "url": "https://home.pay.naver.com/?from=pay_main",
-      "discovered_at": "2026-11-20 10:50:13"
+      "discovered_at": "2026-11-14 03:18:10"
+    },
+    {
+      "url": "https://external-token.pay.naver.com/entry/pincrux?gd=ab8e18ef4ebebeddc0b3152ce9c9006e14fc05242e3fc9ce32246ea6a9543074",
+      "discovered_at": "2026-11-14 03:18:10"
+    },
+    {
+      "url": "https://point.pay.naver.com/mission-detail?dataType=module&rank=7&pageKey=pensionmission&rankType=RANDOM_DAILY&sortCompletedAdToLast=false&mssCode=pensionmission",
+      "discovered_at": "2026-11-14 03:18:10"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026111401_2611_03_1702",
+      "discovered_at": "2026-11-14 03:18:10"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_benefit_261114",
+      "discovered_at": "2026-11-14 03:18:10"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_stock_261114",
+      "discovered_at": "2026-11-14 03:18:10"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=pointdraw_moneycard_261114",
+      "discovered_at": "2026-11-14 03:18:10"
     },
     {
       "url": "https://ofw.adison.co/u/naverpay/ads/730013",
-      "discovered_at": "2026-11-20 10:50:15",
-      "point": 1
+      "discovered_at": "2026-11-14 03:18:10"
     },
     {
-      "url": "https://home.pay.naver.com/?from=main_pay_icon",
-      "discovered_at": "2026-11-20 10:50:16"
-    },
-    {
-      "url": "https://ofw.adison.co/u/naverpay/ads/67823",
-      "discovered_at": "2026-11-20 18:24:47",
-      "point": 1
-    },
-    {
-      "url": "https://ofw.adison.co/u/naverpay/ads/1261940",
-      "discovered_at": "2026-11-20 18:24:48"
-    },
-    {
-      "url": "https://ofw.adison.co/u/naverpay/ads/1262572",
-      "discovered_at": "2026-11-20 20:50:23"
-    },
-    {
-      "url": "https://ofw.adison.co/u/naverpay/ads/1112602",
-      "discovered_at": "2026-11-20 23:44:06"
-    }
-  ],
-  "deleted_urls": [
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261119_1217",
-      "deleted_at": "2026-11-20 00:20:03"
-    },
-    {
-      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_pointdraw_261119_1277",
-      "deleted_at": "2026-11-20 00:47:32"
-    },
-    {
-      "url": "https://ofw.adison.co/u/naverpay/ads/1131212",
-      "deleted_at": "2026-11-20 01:20:03"
-    },
-    {
-      "url": "https://ofw.adison.co/u/naverpay/ads/1185960",
-      "deleted_at": "2026-11-20 01:20:03"
-    },
-    {
-      "url": "https://ofw.adison.co/u/naverpay/ads/1244252",
-      "deleted_at": "2026-11-20 01:20:03"
-    },
-    {
-      "url": "https://ofw.adison.co/u/naverpay/ads/512426",
-      "deleted_at": "2026-11-20 18:50:04"
-    },
-    {
-      "url": "https://ofw.adison.co/u/naverpay/ads/778693",
-      "deleted_at": "2026-11-20 18:50:04"
-    },
-    {
-      "url": "https://ofw.adison.co/u/naverpay/ads/778696",
-      "deleted_at": "2026-11-20 18:50:04"
+      "url": "https://point.pay.naver.com/main?category=quickreward",
+      "discovered_at": "2026-11-14 03:18:10"
     },
     {
       "url": "https://ofw.adison.co/u/naverpay/ads/889076",
-      "deleted_at": "2026-11-20 01:20:03"
+      "discovered_at": "2026-11-14 12:24:21"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/67823",
+      "discovered_at": "2026-11-14 12:24:21"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/branddraw/?from=pointtab",
+      "discovered_at": "2026-11-14 12:24:21"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/1244252",
+      "discovered_at": "2026-11-14 13:56:24"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/1131212",
+      "discovered_at": "2026-11-14 13:56:24"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/1112602",
+      "discovered_at": "2026-11-14 13:56:24"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/1073021",
+      "discovered_at": "2026-11-14 14:44:56"
+    },
+    {
+      "url": "https://point.pay.naver.com/mission-detail?dataType=category&rank=16&pageKey=quickreward&rankType=RANDOM&mssCode=quickreward",
+      "discovered_at": "2026-11-14 14:45:00"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/1252663",
+      "discovered_at": "2026-11-14 14:45:02"
+    },
+    {
+      "url": "https://ofw.adison.co/u/naverpay/ads/1252994",
+      "discovered_at": "2026-11-14 14:45:08"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=cr_2026110103_2611_1527",
+      "discovered_at": "2026-11-14 14:45:08"
+    },
+    {
+      "url": "https://campaign2.naver.com/npay/v2/click-point/?eventId=130133_261101_tjsxor_1200",
+      "category": "캠페인 클릭",
+      "discovered_at": "2026-11-19 22:37:48"
     }
-  ]
+  ],
+  "deleted_urls": []
 }
