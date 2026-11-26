@@ -71,10 +71,56 @@
           </a>
         </div>
 
-        <!-- Product Screenshot Frame -->
-        <div class="screenshot-wrapper">
-          <img src="screenshot.jpg" alt="네줍기 (네이버페이 포인트 줍줍하기) 사이드 패널 실행 화면" class="screenshot-frame">
-          <p class="screenshot-caption">▲ 좌측 네이버페이 혜택 화면과 우측 상시 고정 네줍기 (네이버페이 포인트 줍줍하기) 사이드 패널의 실시간 모니터링 동작 화면</p>
+        <!-- Product Screenshot Carousel -->
+        <div class="screenshot-wrapper screenshot-carousel" id="screenshotCarousel" role="region"
+          aria-roledescription="carousel" aria-label="네줍기 주요 화면 미리보기" tabindex="0">
+          <div class="screenshot-viewport">
+            <div class="screenshot-track" id="carouselTrack">
+              <div class="screenshot-slide" data-caption="▲ 클릭 한 번으로 자동 적립을 시작하고 권종별 실제 적립 포인트를 한눈에 확인">
+                <img src="images/screenshot_1_1280x800.png" alt="네줍기 - 클릭 한 번으로 네이버페이 포인트 자동 적립 및 권종별 실적립 요약"
+                  width="1280" height="800" decoding="async" loading="eager" class="screenshot-slide-img">
+              </div>
+              <div class="screenshot-slide" data-caption="▲ 좌측 네이버페이 혜택 화면과 우측 상시 고정 사이드 패널의 동시 동작 화면">
+                <img src="images/screenshot_2_1280x800.png" alt="네줍기 - 브라우저 사이드 패널에서 네이버페이 혜택 페이지와 함께 자동 적립 실행"
+                  width="1280" height="800" decoding="async" loading="lazy" class="screenshot-slide-img">
+              </div>
+              <div class="screenshot-slide" data-caption="▲ 원하는 시각에 매일 자동 시작하고 예정된 쇼핑라이브도 자동으로 예약 실행">
+                <img src="images/screenshot_3_1280x800.png" alt="네줍기 - 매일 자동 시작 시간 예약 및 예정 쇼핑라이브 자동 예약 설정"
+                  width="1280" height="800" decoding="async" loading="lazy" class="screenshot-slide-img">
+              </div>
+              <div class="screenshot-slide" data-caption="▲ 별도 창 조용히 실행 · 참여한 미션 자동 제외 · 1원 초과만 선택 등 맞춤 필터 옵션">
+                <img src="images/screenshot_4_1280x800.png" alt="네줍기 - 별도 창 조용히 실행, 참여 미션 자동 제외, 1원 초과 필터 옵션"
+                  width="1280" height="800" decoding="async" loading="lazy" class="screenshot-slide-img">
+              </div>
+              <div class="screenshot-slide" data-caption="▲ 미션 처리 현황과 실제 적립 검증 결과를 실시간 로그로 한눈에 확인">
+                <img src="images/screenshot_5_1280x800.png" alt="네줍기 - 미션 처리 현황과 적립 검증 결과를 실시간으로 확인하는 진행 로그"
+                  width="1280" height="800" decoding="async" loading="lazy" class="screenshot-slide-img">
+              </div>
+              <div class="screenshot-slide" data-caption="▲ 크롬 우측 상단 퍼즐 아이콘에서 네줍기를 선택하고 핀 고정으로 빠르게 열기">
+                <img src="images/guide_1280x800.png" alt="네줍기 - 크롬 우측 상단 퍼즐 아이콘에서 네줍기를 찾아 핀 고정하는 사용 가이드"
+                  width="1280" height="800" decoding="async" loading="lazy" class="screenshot-slide-img">
+              </div>
+            </div>
+            <button type="button" class="carousel-btn prev" id="carouselPrev" aria-label="이전 화면">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button type="button" class="carousel-btn next" id="carouselNext" aria-label="다음 화면">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+          <div class="carousel-controls">
+            <div class="carousel-dots" id="carouselDots">
+              <button type="button" class="carousel-dot active" data-index="0" aria-label="1번 화면 보기"
+                aria-current="true"></button>
+              <button type="button" class="carousel-dot" data-index="1" aria-label="2번 화면 보기"></button>
+              <button type="button" class="carousel-dot" data-index="2" aria-label="3번 화면 보기"></button>
+              <button type="button" class="carousel-dot" data-index="3" aria-label="4번 화면 보기"></button>
+              <button type="button" class="carousel-dot" data-index="4" aria-label="5번 화면 보기"></button>
+              <button type="button" class="carousel-dot" data-index="5" aria-label="6번 화면 보기"></button>
+            </div>
+            <span class="carousel-counter" id="carouselCounter" aria-live="polite">1 / 6</span>
+          </div>
+          <p class="screenshot-caption" id="carouselCaption">▲ 클릭 한 번으로 자동 적립을 시작하고 권종별 실제 적립 포인트를 한눈에 확인</p>
         </div>
       </div>
 
@@ -193,6 +239,146 @@
         localStorage.setItem("glean-theme", next);
         updateIcon();
       });
+    })();
+
+    (function () {
+      const carousel = document.getElementById("screenshotCarousel");
+      const track = document.getElementById("carouselTrack");
+      const prevBtn = document.getElementById("carouselPrev");
+      const nextBtn = document.getElementById("carouselNext");
+      const dotsWrap = document.getElementById("carouselDots");
+      const counter = document.getElementById("carouselCounter");
+      const caption = document.getElementById("carouselCaption");
+      if (!carousel || !track) return;
+
+      const slides = Array.from(track.querySelectorAll(".screenshot-slide"));
+      const dots = dotsWrap ? Array.from(dotsWrap.querySelectorAll(".carousel-dot")) : [];
+      const total = slides.length;
+      if (total === 0) return;
+
+      const AUTO_INTERVAL_MS = 4500;
+      const reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      let currentIndex = 0;
+      let timerId = null;
+      let touchStartX = null;
+      let touchStartY = null;
+
+      function render() {
+        track.style.transform = `translateX(-${currentIndex * 100}%)`;
+        dots.forEach((dot, idx) => {
+          const isActive = idx === currentIndex;
+          dot.classList.toggle("active", isActive);
+          if (isActive) {
+            dot.setAttribute("aria-current", "true");
+          } else {
+            dot.removeAttribute("aria-current");
+          }
+        });
+        if (counter) counter.textContent = `${currentIndex + 1} / ${total}`;
+        if (caption) {
+          const text = slides[currentIndex].getAttribute("data-caption") || "";
+          caption.textContent = text;
+        }
+      }
+
+      function goTo(index) {
+        currentIndex = ((index % total) + total) % total;
+        render();
+      }
+
+      function stopAuto() {
+        if (timerId !== null) {
+          clearInterval(timerId);
+          timerId = null;
+        }
+      }
+
+      function startAuto() {
+        if (reduceMotion || document.hidden || total <= 1) return;
+        stopAuto();
+        timerId = setInterval(() => goTo(currentIndex + 1), AUTO_INTERVAL_MS);
+      }
+
+      function resetAuto() {
+        stopAuto();
+        startAuto();
+      }
+
+      if (prevBtn) {
+        prevBtn.addEventListener("click", () => {
+          goTo(currentIndex - 1);
+          resetAuto();
+        });
+      }
+
+      if (nextBtn) {
+        nextBtn.addEventListener("click", () => {
+          goTo(currentIndex + 1);
+          resetAuto();
+        });
+      }
+
+      dots.forEach((dot) => {
+        dot.addEventListener("click", () => {
+          const idx = Number(dot.getAttribute("data-index"));
+          if (!Number.isNaN(idx)) {
+            goTo(idx);
+            resetAuto();
+          }
+        });
+      });
+
+      carousel.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowLeft") {
+          e.preventDefault();
+          goTo(currentIndex - 1);
+          resetAuto();
+        } else if (e.key === "ArrowRight") {
+          e.preventDefault();
+          goTo(currentIndex + 1);
+          resetAuto();
+        }
+      });
+
+      carousel.addEventListener("mouseenter", stopAuto);
+      carousel.addEventListener("mouseleave", startAuto);
+      carousel.addEventListener("focusin", stopAuto);
+      carousel.addEventListener("focusout", (e) => {
+        if (!carousel.contains(e.relatedTarget)) startAuto();
+      });
+
+      carousel.addEventListener("touchstart", (e) => {
+        if (e.touches.length !== 1) return;
+        touchStartX = e.touches[0].clientX;
+        touchStartY = e.touches[0].clientY;
+        stopAuto();
+      }, { passive: true });
+
+      carousel.addEventListener("touchend", (e) => {
+        if (touchStartX === null || touchStartY === null || e.changedTouches.length === 0) {
+          startAuto();
+          return;
+        }
+        const dx = e.changedTouches[0].clientX - touchStartX;
+        const dy = e.changedTouches[0].clientY - touchStartY;
+        touchStartX = null;
+        touchStartY = null;
+        if (Math.abs(dx) >= 40 && Math.abs(dx) > Math.abs(dy)) {
+          goTo(dx < 0 ? currentIndex + 1 : currentIndex - 1);
+        }
+        startAuto();
+      }, { passive: true });
+
+      document.addEventListener("visibilitychange", () => {
+        if (document.hidden) {
+          stopAuto();
+        } else {
+          startAuto();
+        }
+      });
+
+      render();
+      startAuto();
     })();
   </script>
 </body>

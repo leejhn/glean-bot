@@ -2,25 +2,25 @@
 @import url("https://leejhn.github.io/theme.css");
 
 /* ==========================================================================
-   DESIGN TOKENS - glean-bot Accent Overrides (Gold Amber from Icon)
+   DESIGN TOKENS - glean-bot Accent Overrides (Naver Pay Emerald Green)
    ========================================================================== */
 :root {
-  --color-brand: var(--color-glean, #d97706);
-  --color-brand-dark: var(--color-glean-dark, #b45309);
-  --color-brand-deep: #b45309;
-  --color-brand-soft: var(--color-glean-soft, rgba(245, 158, 11, 0.12));
-  --color-brand-border: var(--color-glean-border, rgba(245, 158, 11, 0.34));
+  --color-brand: #03c75a;
+  --color-brand-dark: #008f3e;
+  --color-brand-deep: #007a35;
+  --color-brand-soft: rgba(3, 199, 90, 0.10);
+  --color-brand-border: rgba(3, 199, 90, 0.30);
 }
 
 /* ==========================================================================
    DESIGN TOKENS - Black Theme Accent Overrides
    ========================================================================== */
 [data-theme="black"] {
-  --color-brand: var(--color-glean, #f59e0b);
-  --color-brand-dark: #fbbf24;
-  --color-brand-deep: #fbbf24;
-  --color-brand-soft: var(--color-glean-soft, rgba(245, 158, 11, 0.16));
-  --color-brand-border: var(--color-glean-border, rgba(251, 191, 36, 0.38));
+  --color-brand: #1fd168;
+  --color-brand-dark: #4ade80;
+  --color-brand-deep: #4ade80;
+  --color-brand-soft: rgba(3, 199, 90, 0.16);
+  --color-brand-border: rgba(74, 222, 128, 0.36);
 }
 
 /* ==========================================================================
@@ -231,7 +231,7 @@ nav a.active {
   width: 260px;
   height: 260px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(245, 158, 11, 0.14) 0%, rgba(56, 189, 248, 0.08) 50%, transparent 72%);
+  background: radial-gradient(circle, rgba(3, 199, 90, 0.14) 0%, rgba(16, 185, 129, 0.07) 50%, transparent 72%);
   pointer-events: none;
 }
 
@@ -243,7 +243,7 @@ nav a.active {
   width: 240px;
   height: 240px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(2, 132, 199, 0.1) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(52, 211, 153, 0.11) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -277,7 +277,7 @@ nav a.active {
   height: 6px;
   border-radius: 50%;
   background: var(--color-brand);
-  box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.22);
+  box-shadow: 0 0 0 3px rgba(3, 199, 90, 0.22);
 }
 
 .badge-neutral {
@@ -323,21 +323,21 @@ h1 {
   gap: 8px;
   padding: 13px 26px;
   border-radius: var(--radius-pill);
-  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  background: linear-gradient(135deg, #03c75a 0%, #00a84b 100%);
   color: #ffffff !important;
   font-size: 15px;
   font-weight: 800;
   text-decoration: none !important;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.14);
   border: 1px solid rgba(255, 255, 255, 0.25);
-  box-shadow: 0 6px 20px -2px rgba(217, 119, 6, 0.36);
+  box-shadow: 0 6px 20px -2px rgba(3, 199, 90, 0.34);
   transition: transform var(--motion-quick), box-shadow var(--motion-quick), background var(--motion-quick);
 }
 
 .btn-install:hover {
   transform: translateY(-2px);
-  background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
-  box-shadow: 0 10px 24px -2px rgba(217, 119, 6, 0.46);
+  background: linear-gradient(135deg, #00b450 0%, #009140 100%);
+  box-shadow: 0 10px 24px -2px rgba(3, 199, 90, 0.44);
 }
 
 .btn-install:active {
@@ -470,6 +470,135 @@ h1 {
   text-align: center;
   margin-top: 12px;
   margin-bottom: 0;
+}
+
+.screenshot-carousel {
+  outline: none;
+}
+
+.screenshot-carousel:focus-visible .screenshot-viewport {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
+}
+
+.screenshot-viewport {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-inset);
+  border: 1px solid var(--color-border-subtle);
+  box-shadow: var(--shadow-floating);
+  aspect-ratio: 16 / 10;
+  background: var(--color-surface-inset);
+}
+
+.screenshot-track {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform;
+}
+
+.screenshot-slide {
+  flex: 0 0 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.screenshot-slide-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid var(--color-border-glass);
+  background: var(--color-surface-floating);
+  backdrop-filter: var(--blur-surface);
+  -webkit-backdrop-filter: var(--blur-surface);
+  color: var(--color-text-primary);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 14px;
+  box-shadow: var(--shadow-subtle);
+  transition: background var(--motion-quick), border-color var(--motion-quick), color var(--motion-quick), transform var(--motion-quick);
+}
+
+.carousel-btn.prev {
+  left: 12px;
+}
+
+.carousel-btn.next {
+  right: 12px;
+}
+
+.carousel-btn:hover {
+  background: var(--color-surface-solid);
+  border-color: var(--color-brand-border);
+  color: var(--color-brand-dark);
+  transform: translateY(-50%) scale(1.06);
+}
+
+.carousel-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.carousel-dots {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.carousel-dot {
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: var(--color-text-muted);
+  opacity: 0.35;
+  cursor: pointer;
+  transition: width var(--motion-quick), background var(--motion-quick), opacity var(--motion-quick);
+}
+
+.carousel-dot:hover {
+  opacity: 0.7;
+}
+
+.carousel-dot.active {
+  width: 22px;
+  background: var(--color-brand);
+  opacity: 1;
+}
+
+.carousel-counter {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  font-variant-numeric: tabular-nums;
+  min-width: 36px;
+  text-align: left;
+}
+
+.screenshot-carousel .screenshot-caption {
+  margin-top: 8px;
+  min-height: 22px;
 }
 
 /* ==========================================================================
@@ -638,7 +767,7 @@ a:hover {
 }
 
 .step-num {
-  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  background: linear-gradient(135deg, #03c75a 0%, #00a84b 100%);
   color: #ffffff;
   width: 28px;
   height: 28px;
@@ -650,7 +779,7 @@ a:hover {
   font-size: 13px;
   flex-shrink: 0;
   margin-top: 1px;
-  box-shadow: 0 3px 8px rgba(217, 119, 6, 0.28);
+  box-shadow: 0 3px 8px rgba(3, 199, 90, 0.28);
   font-variant-numeric: tabular-nums;
 }
 
@@ -846,6 +975,20 @@ footer a:hover {
 
   .denom-chips {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .carousel-btn {
+    width: 32px;
+    height: 32px;
+    font-size: 12px;
+  }
+
+  .carousel-btn.prev {
+    left: 8px;
+  }
+
+  .carousel-btn.next {
+    right: 8px;
   }
 }
 
