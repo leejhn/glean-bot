@@ -2,25 +2,25 @@
 @import url("https://leejhn.github.io/theme.css");
 
 /* ==========================================================================
-   DESIGN TOKENS - glean-bot Accent Overrides (Naver Pay Emerald Green)
+   DESIGN TOKENS - glean-bot Accent Overrides (Apple Liquid Glass Sapphire)
    ========================================================================== */
 :root {
-  --color-brand: #03c75a;
-  --color-brand-dark: #008f3e;
-  --color-brand-deep: #007a35;
-  --color-brand-soft: rgba(3, 199, 90, 0.10);
-  --color-brand-border: rgba(3, 199, 90, 0.30);
+  --color-brand: #007aff;
+  --color-brand-dark: #005ec4;
+  --color-brand-deep: #004ea8;
+  --color-brand-soft: rgba(0, 122, 255, 0.10);
+  --color-brand-border: rgba(0, 122, 255, 0.28);
 }
 
 /* ==========================================================================
    DESIGN TOKENS - Black Theme Accent Overrides
    ========================================================================== */
 [data-theme="black"] {
-  --color-brand: #1fd168;
-  --color-brand-dark: #4ade80;
-  --color-brand-deep: #4ade80;
-  --color-brand-soft: rgba(3, 199, 90, 0.16);
-  --color-brand-border: rgba(74, 222, 128, 0.36);
+  --color-brand: #38bdf8;
+  --color-brand-dark: #60a5fa;
+  --color-brand-deep: #93c5fd;
+  --color-brand-soft: rgba(56, 189, 248, 0.16);
+  --color-brand-border: rgba(96, 165, 250, 0.36);
 }
 
 /* ==========================================================================
@@ -231,7 +231,7 @@ nav a.active {
   width: 260px;
   height: 260px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(3, 199, 90, 0.14) 0%, rgba(16, 185, 129, 0.07) 50%, transparent 72%);
+  background: radial-gradient(circle, rgba(14, 165, 233, 0.14) 0%, rgba(0, 122, 255, 0.07) 50%, transparent 72%);
   pointer-events: none;
 }
 
@@ -243,7 +243,7 @@ nav a.active {
   width: 240px;
   height: 240px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(52, 211, 153, 0.11) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(99, 102, 241, 0.11) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -277,7 +277,7 @@ nav a.active {
   height: 6px;
   border-radius: 50%;
   background: var(--color-brand);
-  box-shadow: 0 0 0 3px rgba(3, 199, 90, 0.22);
+  box-shadow: 0 0 0 3px rgba(0, 122, 255, 0.22);
 }
 
 .badge-neutral {
@@ -323,21 +323,21 @@ h1 {
   gap: 8px;
   padding: 13px 26px;
   border-radius: var(--radius-pill);
-  background: linear-gradient(135deg, #03c75a 0%, #00a84b 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #007aff 52%, #2563eb 100%);
   color: #ffffff !important;
   font-size: 15px;
   font-weight: 800;
   text-decoration: none !important;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.14);
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  box-shadow: 0 6px 20px -2px rgba(3, 199, 90, 0.34);
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.45), 0 8px 22px -4px rgba(0, 122, 255, 0.36);
   transition: transform var(--motion-quick), box-shadow var(--motion-quick), background var(--motion-quick);
 }
 
 .btn-install:hover {
   transform: translateY(-2px);
-  background: linear-gradient(135deg, #00b450 0%, #009140 100%);
-  box-shadow: 0 10px 24px -2px rgba(3, 199, 90, 0.44);
+  background: linear-gradient(135deg, #0284c7 0%, #0066dc 52%, #1d4ed8 100%);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.50), 0 12px 26px -4px rgba(0, 122, 255, 0.46);
 }
 
 .btn-install:active {
@@ -400,7 +400,7 @@ h1 {
   border-radius: var(--radius-pill);
 }
 
-.seg-15 { background: #03c75a; width: 42%; }
+.seg-15 { background: var(--color-brand); width: 42%; }
 .seg-10 { background: #0284c7; width: 28%; }
 .seg-2  { background: #d97706; width: 18%; }
 .seg-1  { background: #94a3b8; width: 12%; }
@@ -437,7 +437,7 @@ h1 {
   border-radius: 50%;
 }
 
-.dot-15 { background: #03c75a; }
+.dot-15 { background: var(--color-brand); }
 .dot-10 { background: #0284c7; }
 .dot-2  { background: #d97706; }
 .dot-1  { background: #94a3b8; }
@@ -767,7 +767,7 @@ a:hover {
 }
 
 .step-num {
-  background: linear-gradient(135deg, #03c75a 0%, #00a84b 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #007aff 100%);
   color: #ffffff;
   width: 28px;
   height: 28px;
@@ -779,7 +779,7 @@ a:hover {
   font-size: 13px;
   flex-shrink: 0;
   margin-top: 1px;
-  box-shadow: 0 3px 8px rgba(3, 199, 90, 0.28);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.38), 0 3px 10px rgba(0, 122, 255, 0.28);
   font-variant-numeric: tabular-nums;
 }
 
